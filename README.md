@@ -25,3 +25,7 @@ yuanyan.cao@gmail.com
 ####JSON to Java Object:
 
 	Object object = Json.deserialize(string);
+
+####Set CacheProvider
+
+    Json.setCacheProvider(new LinkedHashMapCacheProvider());	
